@@ -2,5 +2,6 @@ import datetime as dt
 
 ahora = dt.datetime.now()
 
-print(f"{ahora.day}/{ahora.month}/{ahora.year}")
+print(ahora.strftime("%A %d de %B del %Y - %H:%M"))
+
 print("Fin")
